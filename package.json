@@ -6,8 +6,8 @@
 "engines": { "node": "18.x" },
 "scripts": {
 "dev": "vite",
-"build": "vite build",
-"vercel-build": "npm install --include=dev && vite build",
+"build": "vite",
+"vercel-build": "vite build",
 "preview": "vite preview"
 },
 "dependencies": {

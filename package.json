@@ -3,9 +3,11 @@
 "private": true,
 "version": "0.0.1",
 "type": "module",
+"engines": { "node": "18.x" },
 "scripts": {
 "dev": "vite",
 "build": "vite build",
+"vercel-build": "npm install --include=dev && vite build",
 "preview": "vite preview"
 },
 "dependencies": {
